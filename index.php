@@ -1,4 +1,13 @@
-<?php
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <?php
     header('Content-Type: application/json');
     header("Access-Control-Allow-Origin: *");
     header("Access-Control-Allow-Headers: *");
@@ -50,6 +59,6 @@
             file_put_contents('USER.txt', "\n".$USER);
         }
             
-
-        //echo 'salut'
     ?>
+</body>
+</html>
